@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background: url("../../juicw/images/gbgr.png") no-repeat;
+	background: url("Images/test copy.png");
 	background-repeat: no-repeat;
 	background-position:center;
 }
@@ -10,6 +10,7 @@ body{
 
 
 #wrapper{
+	height:auto;
 	width:900px;
 	margin:0 auto;
 }
@@ -30,7 +31,7 @@ header h1 {
 	font-weight: 700;
 	font-style: normal;
 	text-align: center;
-	color: rgba(30,0,255,1.00)
+	color: rgba(96,209,111,1.00);
 }
 nav{
 	width: 100%;
@@ -59,7 +60,7 @@ footer{
 
 nav a:link {
 	font-family: mono45-headline, monospace;
-	color: rgba(41,41,41,.7);
+	color: rgba(33,51,59,1.00);
 	text-decoration: none;
 	margin-right: 20px;
 	
@@ -97,7 +98,33 @@ nav a:active {
 
 p{
 	font-family: mono45-headline, monospace;
-	color: rgba(0,0,0,1.00);
+	color: rgba(33,51,59,1.00);
 	text-decoration: none;
 	margin-right: 50px;
+}
+footer{
+	color: rgba(33,51,59,1.00)
+}
+header h2 {
+	font-size: 55px;
+	font-family: mono45-headline, monospace;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	color: rgba(33,51,59,1.00);
+}
+
+h3{
+	font-family: mono45-headline, monospace;
+	color: rgba(33,51,59,1.00);
+	text-decoration: none;
+	margin-right: 50px;
+	font-size: 22px
+}
+h4{
+	font-family: mono45-headline, monospace;
+	color: rgba(33,51,59,1.00);
+	text-decoration: none;
+	margin-right: 50px;
+	font-size: 17px
 }
